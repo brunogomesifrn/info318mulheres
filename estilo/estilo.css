@@ -183,10 +183,10 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #7E2451;
   text-decoration: none;}
 
-  .center
-  {
-    text-align: center;
-  } 
+.center
+{
+  text-align: center;
+} 
 
 #content
 { text-align: left;
@@ -236,6 +236,13 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 66px 16px 0px 300px;}
 
 .oculta { display:none; }
+
+.sexo
+{ 
+  float: right; 
+  width: auto;
+  margin-left: 95px;
+}
   
 .form_settings
 { margin: 15px 0 0 0;}
@@ -266,6 +273,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   cursor: pointer; 
   background: #000; 
   color: #FFF;}
+
+
 
 .form_settings textarea, .form_settings select
 { font: 100% arial; 
