@@ -7,22 +7,21 @@
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="estilo/estilo.css" title="estilo" />
 </head>
 
 <body>
-  <div id="main">
+  <div id="main" class="container">
     <div id="header">
       <div id="logo">
         <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
           <h1><a href="index.html">Mulheres<span class="logo_colour">_na</span><span class="logo_colour2">_luta</span></a></h1>
           <h2>SOMOS RESISTÊNCIA</h2>
         </div>
       </div>
       <div id="menubar">
         <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.html">Início</a></li>
           <li><a href="biografias.html">Biografias</a></li>
           <li><a href="videos.html">Vídeos</a></li>
@@ -33,28 +32,9 @@
         </ul>
       </div>
     </div>
-    <div id="site_content">
+    <div id="site_content" class="container-fluid">
       <div class="sidebar">
         <!-- Barra lateral -->
-        <h3>Vídeos recentes:</h3>
-        <a href="https://www.youtube.com/watch?v=UXDnEbypS18" target="_blank"><h2>Quando é só pra mulher branca, não vem dizer que é feminismo...</h2></a>
-        <iframe width="200" height="120" src="https://www.youtube.com/embed/UXDnEbypS18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <!-- <h5>August 1st, 2014</h5> -->
-        <!-- <p>2014 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
-        <p></p> -->
-        <br /><br />
-        <h4>Frase feminista de Taís Araújo, atriz brasileira</h4>
-        <!-- <h5>August 1st, 2014</h5> -->
-        <p>“Independentemente da origem, existe um sofrimento que é nosso. Meu, que fui criada na Barra, e da menina da favela da Maré. Ela tem uma vida muito mais difícil, claro. Há um abismo entre nós, mas nos encontramos na dor.”<!--<br /><a href="#">Read more</a>--></p>
-        <h3>Livros/artigos...</h3>
-        <ul>
-          <li><a href="http://www.scielo.br/pdf/rsocp/v18n36/03.pdf">FEMINISMO, HISTÓRIA E PODER</a></li>
-          <li><a href="http://www.uece.br/eventos/seminariocetros/anais/trabalhos_completos/69-17225-08072013-161937.pdf">AS TRAJETÓRIAS E LUTAS DO MOVIMENTO FEMINISTA NO BRASIL
-E O PROTAGONISMO SOCIAL DAS MULHERES</a></li>
-          <li><a href="http://www.periodicos.ufpb.br/index.php/ged/article/viewFile/25106/14464">O MOVIMENTO FEMINISTA E A LUTA PELO EMPODERAMENTO
-DA MULHER</a></li>
-          <li><a href="http://periodicos.unb.br/index.php/insurgencia/article/viewFile/16758/11894">MOVIMENTOS FEMINISTAS</a></li>
-        </ul>
       </div>
       <div id="content">
         <!-- Fora da barra lateral -->
@@ -75,8 +55,29 @@ DA MULHER</a></li>
       </div>
 
     </div>
-    <div id="footer">
-      Copyright &copy; black_pink_white | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | free from html5webtemplates.co.uk
+    <div id="footer" class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-12 border-right">
+        <h3>Vídeo mais recente:</h3>
+                  <a href="https://www.youtube.com/watch?v=UXDnEbypS18" target="_blank"><h2>Quando é só pra mulher branca, não vem dizer que é feminismo...</h2></a>'
+          <iframe width="200" height="120" src="https://www.youtube.com/embed/UXDnEbypS18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4 col-12">
+          <h4>Frase de Taís Araújo, atriz brasileira</h4>
+          <p>“Independentemente da origem, existe um sofrimento que é nosso. Meu, que fui criada na Barra, e da menina da favela da Maré. Ela tem uma vida muito mais difícil, claro. Há um abismo entre nós, mas nos encontramos na dor.”</p></div>
+
+        <div class="col-md-4 col-12 border-left">
+          <h3>Livros/artigos...</h3>
+          <ul>
+            <li><a href="http://www.scielo.br/pdf/rsocp/v18n36/03.pdf">FEMINISMO, HISTÓRIA E PODER</a></li>
+            <li><a href="http://www.uece.br/eventos/seminariocetros/anais/trabalhos_completos/69-17225-08072013-161937.pdf">AS TRAJETÓRIAS E LUTAS DO MOVIMENTO FEMINISTA NO BRASIL
+  E O PROTAGONISMO SOCIAL DAS MULHERES</a></li>
+            <li><a href="http://www.periodicos.ufpb.br/index.php/ged/article/viewFile/25106/14464">O MOVIMENTO FEMINISTA E A LUTA PELO EMPODERAMENTO
+  DA MULHER</a></li>
+            <li><a href="http://periodicos.unb.br/index.php/insurgencia/article/viewFile/16758/11894">MOVIMENTOS FEMINISTAS</a></li>
+          </ul></div>
+      </div>
+      Copyright &copy; black_pink_white | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | from <a href="http://www.html5webtemplates.co.uk">free HTML5 templates</a>
     </div>
   </div>
 </body>
