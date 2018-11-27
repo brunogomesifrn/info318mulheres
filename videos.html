@@ -8,33 +8,55 @@
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="estilo/estilo.css" title="estilo" />
 </head>
 
 <body>
-  <div id="main" class="container">
-    <div id="header" class="container-fluid">
-      <div id="logo">
-        <div id="logo_text">
-          <h1><a href="index.html">Mulheres<span class="logo_colour">_na</span><span class="logo_colour2">_luta</span></a></h1>
-          <h2>SOMOS RESISTÊNCIA</h2>
+  <nav class=”navbar navbar-default navbar-static-top”>
+    <div id="main" class="container">
+      <div id="header">
+        <div id="logo">
+          <div id="logo_text">
+            <h1><a href="index.html">Mulheres<span class="logo_colour">_na</span><span class="logo_colour2">_luta</span></a></h1>
+            <h2>SOMOS RESISTÊNCIA</h2>
+          </div>
         </div>
-      </div>
-      <div id="menubar" class="container-fluid">
-        <ul id="menu">
-          <li><a href="index.html">Início</a></li>
-          <li><a href="biografias.html">Biografias</a></li>
-          <li class="selected"><a href="videos.html">Vídeos</a></li>
-          <li><a href="noticias.html">Notícias</a></li>
-          <li><a href="contato.html">Contato</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="cadastro.html">Cadastro</a></li>
-        </ul>
-      </div>
+        
+        <nav class="navbar navbar-expand-lg" id="menubar">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-list-ul"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto" id="menu">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="biografias.html">Biografias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="videos.html">Vídeos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="noticias.html">Notícias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cadastro.html">Cadastro</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
     </div>
     <div id="site_content" class="container-fluid">
       <div id="content">
-        <!-- Fora da barra lateral -->
         <h1>Vídeos</h1>
         <a href="https://www.youtube.com/watch?v=Nk8tSRRxqew" target="_blank"><h3>Dói, o seu tapa me dói/ Poesia Feminista</h3></a>
         <iframe width="500" height="220" src="https://www.youtube.com/embed/Nk8tSRRxqew" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -135,8 +157,8 @@ Mariana Felix</span>
     <div id="footer" class="container-fluid">
       <div class="row">
         <div class="col-md-4 col-12 border-right">
-        <h3>Vídeo mais recente:</h3>
-                  <a href="https://www.youtube.com/watch?v=UXDnEbypS18" target="_blank"><h2>Quando é só pra mulher branca, não vem dizer que é feminismo...</h2></a>'
+        <h4>Vídeo mais recente:</h4>
+                  <a href="https://www.youtube.com/watch?v=UXDnEbypS18" target="_blank"><h4>Quando é só pra mulher branca, não vem dizer que é feminismo...</h4></a>'
           <iframe width="200" height="120" src="https://www.youtube.com/embed/UXDnEbypS18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-4 col-12">
@@ -144,7 +166,7 @@ Mariana Felix</span>
           <p>“Independentemente da origem, existe um sofrimento que é nosso. Meu, que fui criada na Barra, e da menina da favela da Maré. Ela tem uma vida muito mais difícil, claro. Há um abismo entre nós, mas nos encontramos na dor.”</p></div>
 
         <div class="col-md-4 col-12 border-left">
-          <h3>Livros/artigos...</h3>
+          <h4>Livros/artigos...</h4>
           <ul>
             <li><a href="http://www.scielo.br/pdf/rsocp/v18n36/03.pdf">FEMINISMO, HISTÓRIA E PODER</a></li>
             <li><a href="http://www.uece.br/eventos/seminariocetros/anais/trabalhos_completos/69-17225-08072013-161937.pdf">AS TRAJETÓRIAS E LUTAS DO MOVIMENTO FEMINISTA NO BRASIL
@@ -166,5 +188,9 @@ Mariana Felix</span>
           e.preventDefault();
         });
     </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
