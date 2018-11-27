@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2 url(background.png) repeat;
+  background: #dbc9de;
   color: #FFF;}
 
 p
@@ -18,13 +18,13 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 175% 'century gothic', arial, sans-serif;
+{ font: normal 1.4rem 'century gothic', arial, sans-serif;
   color: #FA057E;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
-{ font: normal 175% 'century gothic', arial, sans-serif;}
+{ font: normal 1.4rem 'century gothic', arial, sans-serif;}
 
 h4, h5, h6
 { margin: 0;
@@ -90,13 +90,14 @@ ol
 ol li
 { margin: 0 0 11px 0;}
 
-#main, #logo, #menubar, #site_content, #footer
+/*#main, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
-  margin-right: auto;}
+  margin-right: auto;}*/
 
 #header
 { background: transparent;
-  height: 202px;}
+  /*height: 202px;*/
+  padding: 0}
 
 #logo
 { width: 898px;
@@ -132,10 +133,11 @@ ol li
   color: #000;}
 
 #menubar
-{ width: 898px;
+{ /*width: 898px;*/
   height: 52px;
   padding: 0;
-  background: #000;} 
+  background: #000;
+  margin-bottom: 5px;} 
 
 ul#menu, ul#menu li
 { float: left;
@@ -147,11 +149,11 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: normal 100% arial, sans-serif;
+  font: normal 12.5px arial, sans-serif;
   display: block; 
   float: left; 
-  height: 17px;
-  margin: 10px 0 0 10px;
+  /*height: 17px;
+*/  margin: 10px 0 0 10px;
   padding: 9px 26px 6px 26px;
   text-align: center;
   color: #FFF;
@@ -164,9 +166,9 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #fff;}
 
 #site_content
-{ width: 854px;
+{ /*width: 854px;*/
   overflow: hidden;
-  margin: 0 auto 0 auto;
+  /*margin: 0 auto 0 auto;*/
   padding: 0 24px 20px 20px;
   background: #000;} 
 
