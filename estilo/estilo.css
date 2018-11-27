@@ -249,9 +249,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 .sexo
 { 
-  float: right; 
   width: auto;
-  margin-left: 80px;
 }
   
 .form_settings
@@ -308,7 +306,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   margin: 0 0 20px 0;}
   
 table
-{ margin: 0 auto;}
+{ margin: 0 auto;
+  text-align: right;}
 
 table tr th, table tr td
 { /*background: #3B3B3B;
