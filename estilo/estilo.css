@@ -78,6 +78,15 @@ pre
   background-color: #7E2451;
   padding: 5px;
 }
+.cor
+{
+  color: white;
+}
+
+.outra_cor
+{
+  color: #FA057E;
+}
 
 blockquote
 { margin: 20px 0; 
@@ -99,17 +108,13 @@ ol
 ol li
 { margin: 0 0 11px 0;}
 
-/*#main, #logo, #menubar, #site_content, #footer
-{ margin-left: auto; 
-  margin-right: auto;}*/
-
 #header
 { background: transparent;
-  /*height: 202px;*/
+  
   padding: 0}
 
 #logo
-{ width: 898px;
+{ 
   position: relative;
   height: 148px;}
 
@@ -142,30 +147,25 @@ ol li
   color: #000;}
 
 #menubar
-{ /*width: 898px;*/
-  height: 52px;
-  padding: 0;
+{   
   background: #000;
-  margin-bottom: 5px;} 
+  margin-bottom: 5px;
+} 
 
+ul#menu {
+  margin: 0 auto;
+}
 ul#menu, ul#menu li
-{ float: left;
-  margin: 0; 
-  padding: 0;}
+{ }
 
 ul#menu li
 { list-style: none;}
 
 ul#menu li a
-{ letter-spacing: 0.1em;
-  font: normal 12.5px arial, sans-serif;
-  display: block; 
-  float: left; 
-  /*height: 17px;
-*/  margin: 10px 0 0 10px;
-  padding: 9px 26px 6px 26px;
-  text-align: center;
+{ 
   color: #FFF;
+  font: normal 1rem arial, sans-serif;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   background: transparent;} 
@@ -174,10 +174,12 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FA057E;
   background: #fff;}
 
+.navbar-toggler {
+  color: white;
+}
 #site_content
-{ /*width: 854px;*/
+{ 
   overflow: hidden;
-  /*margin: 0 auto 0 auto;*/
   padding: 0 24px 20px 20px;
   background: #000;} 
 
@@ -212,7 +214,6 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #content
 { text-align: justify;
   float: left;
-  /*width: 595px;*/
   padding: 0;}
 
 #content ul
@@ -226,7 +227,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   line-height: 1.5em;}
 
 #footer
-{ width: 898px;
+{ 
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
   height: 33px;
   padding: 24px 0 5px 0;
@@ -321,12 +322,7 @@ table
   text-align: right;}
 
 table tr th, table tr td
-{ /*background: #3B3B3B;
-  color: #FFF;*/
+{ 
   padding: 7px 4px;
 }
   
-/*table tr td
-{ background: #F0EFE2;
-  color: #47433F;
-  border-top: 1px solid #FFF;}*/
