@@ -223,7 +223,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { text-align: justify;
   float: left;
   text-indent: 3rem;
-  padding: 0;}
+  padding: 0;
+  width:100%;}
 
 #content ul
 { margin: 2px 0 22px 0px;}
@@ -306,8 +307,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 
 .form_settings textarea, .form_settings select
-{ font: 100% arial; 
-  width: 299px;}
+{ font: 100% arial; }
 
 .form_settings select
 { width: 310px;}
