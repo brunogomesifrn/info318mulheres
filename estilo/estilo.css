@@ -55,6 +55,31 @@ pre
   font-size: 50px;
 }
 
+.perguntas {
+  overflow-y: auto;
+  max-height: 28.5rem;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #B03060;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DCDCDC; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #CDB7B5; 
+}
+
 .videos {
   text-align: center;
 }
@@ -222,9 +247,12 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #content
 { text-align: justify;
   float: left;
-  text-indent: 3rem;
   padding: 0;
   width:100%;}
+
+#content p, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+  text-indent: 3rem;
+}
 
 #content ul
 { margin: 2px 0 22px 0px;}
@@ -296,14 +324,18 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 .form_settings .submit
 { font: 100% arial; 
   border: 1px solid; 
-  width: 99px; 
+  /*width: 99px; 
   margin: 0 0 0 212px; 
-  height: 33px;
-  padding: 2px 0 3px 0;
+  height: 33px;*/
+  width: auto;
+  padding: 3px 10px;
   cursor: pointer; 
   background: #000; 
   color: #FFF;}
 
+i {
+	margin: 0 3px;
+}
 
 
 .form_settings textarea, .form_settings select
